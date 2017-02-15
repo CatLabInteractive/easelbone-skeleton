@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Easelbone Skeleton</title>
+
+    <link href="css/base.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+
+    <script src="vendor/requirejs/require.js"></script>
+    <script>
+
+        if (!window.console) {
+            var console = {};
+        }
+        if (!console.log) {
+            console.log = function () {};
+        }
+
+        require.config({
+            'baseUrl': 'scripts/'
+        });
+
+        require(['main'], function (Launcher) {
+
+            Launcher.start();
+
+        });
+    </script>
+
+    <!--[if lt IE 9]>
+    <div class="browser-not-supported">
+        <h1>We're sorry, this browser is not supported</h1>
+        <p>
+            You are using an outdated browser that we don't support anymore.<br/>
+            Please upgrade your web browser and try again.
+        </p>
+
+        <p>Alternatively, you could download
+            <a href="https://www.mozilla.org/nl/firefox/new/">Firefox</a> or
+            <a href="https://www.google.nl/chrome/browser/desktop/">Chrome</a>.
+        </p>
+    </div>
+    <![endif]-->
+
+    <div id="container"></div>
+</body>
+
+</html>

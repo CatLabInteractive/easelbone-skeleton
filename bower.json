@@ -1,0 +1,15 @@
+{
+  "name": "quizwitz",
+  "version": "0.2.0",
+  "dependencies": {
+    "backbone": "1.*",
+    "backbone.controller": null,
+    "underscore": "1.*",
+    "requirejs": null,
+    "easelbone": "*",
+    "easelhacks": "*",
+    "i18n-lite": "*",
+    "airbrake-js-client": "*",
+    "requirejs-plugins": "^1.0.3"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "easelbone-skeleton",
+  "version": "1.0.0",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "frame": true,
+    "width": 1280,
+    "height": 720
+  },
+  "author": "CatLab Interactive",
+  "devDependencies": {
+    "bower": "^1.7.9",
+    "grunt": "v1.0.0",
+    "grunt-open": "^0.2.3",
+    "grunt-connect": "^0.2.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "connect-modrewrite": "^0.9.0",
+    "grunt-contrib-watch": "^0.6.1"
+  },
+  "scripts": {
+    "postinstall": "bower install"
+  }
+}
